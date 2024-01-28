@@ -1,0 +1,90 @@
+.joblist_header {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f0f0f0;
+  }
+  
+  .joblist_header button {
+    background-color: #d9534f;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+  .joblist_header button:hover {
+    background-color: #c9302c;
+  }
+  
+  .joblist_header h2 {
+    display:flex;
+    color: #0936a1;
+  font-size: 24px;
+  margin-top: 1px;
+  font-weight: bold; 
+  }
+  
+  .joblist_header ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .joblist_header li {
+    margin-bottom: 10px;
+   
+  }
+  
+  .joblist_header button.jobButton {
+    background-color: #5bc0de;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .joblist_header button.jobButton:hover {
+    background-color: #46b8da;
+  }
+  
+  .joblist_header a {
+    color: #0e3590;
+  text-decoration: none;
+  font-weight: bold;
+  margin-right: 10px;
+  margin-top: 20px;
+  margin-left: 65%;
+  /* padding: 1px;  */
+  border: 1px solid #a0b1db; 
+  border-radius: 5px;
+  transition: border-color 0.3s ease; 
+  }
+  
+  .joblist_header a:hover {
+    color: #082c69;
+  }
+
+  .joblist_header button.job_item {
+    width: 100%;
+    max-width: 4000px; 
+   background-color: #a5d0ea; 
+   color: #333; 
+   padding: 12px 20px;
+   border: none;
+   border-radius: 8px;
+   cursor: pointer;
+   margin-right: 10px;
+  }
+  
+  .joblist_header button.job_item:hover {
+    background-color: #5F9EA0; 
+  }
+
+  
+
+  
+  
+  
